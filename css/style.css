@@ -28,12 +28,12 @@
     font-family: 'Oswald', sans-serif;
     }
 
-    .header-menu ul li a {
+    .header-menu ul ,li, a {
     text-decoration: none;
     color: var(--cor-secundaria);
     }
 
-    .header-menu ul li a:hover {
+    .header-menu ul, li, a:hover {
         color: var(--cor-terciaria);
     }
 
@@ -60,11 +60,11 @@
     }
 
     .main-title h1{
-        font-size: 150px;
+        font-size: 9rem;
     }
 
     .main-title h2{
-        font-size: 100px;
+        font-size: 6rem;
     }
 
     .main-figure{
@@ -120,14 +120,14 @@
     }
 
     .section-text h3{
-        font-size: 50px;
+        font-size: 3rem;
         color: var(--cor-secundaria);
         font-weight: 900px;
     }
     
     .section-text p{
         color: var(--cor-secundaria);
-        font-weight: 100;
+        font-size: 1.1rem;
         margin: 0px 250px;
         text-align: center;
         padding: 20px;
@@ -156,14 +156,14 @@
 
     .card h2{
         font-family: 'Roboto Slab', serif;
-        font-size: 25px;
+        font-size: 2rem;
         color: var(--cor-secundaria);
         margin: 10%;
     }
 
     .card p{
         font-family: 'Roboto Slab', serif;
-        font-size: 15px;
+        font-size: 1rem;
         color: var(--cor-secundaria);
         margin: 10% 10%;
     }
@@ -180,6 +180,7 @@
         background-color: var(--cor-terciaria);
         border: none;
         padding: 10px 20px;
+        cursor:pointer;
     }
 
     .btn a{
@@ -196,3 +197,148 @@
     .btn:hover {
         transform: scale(0.95); 
     }
+
+    .section-2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 75px;
+        padding: 50px 25px;
+      }
+      
+      .section-text2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        font-family: 'Roboto Slab', serif;
+        color: var(--cor-secundaria);
+    }
+
+    .section-text2 h2{
+        font-size: 1.5rem ;
+    }
+
+    .section-text2 h3{
+        font-size: 4rem ;
+    }
+
+      .sec-form {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+      }
+      
+      .col1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      input[type="text"], input[type="date"],
+      input[type="number"], input[type="email"],
+      input[type="time"] {
+        width: 350px;
+        height: 50px;
+        border-radius: 7px;
+        border: none;
+        background-color: var(--cor-primaria);
+        padding: 10px 10px;
+        font-size: 1rem;
+      }
+      
+      input[type="submit"] {
+        width: 350px;
+        height: 50px;
+        border: none;
+        border-radius: 7px;
+        background-color: var(--cor-terciaria);
+        color: white;
+        font-size: 1rem;
+        transition: all 0.3s;
+      }
+      
+      input[type="submit"]:hover {
+        transform: scale(0.95); 
+        cursor:pointer;
+    }
+      
+      input[type="text"]::placeholder {
+        color: var(--cor-secundaria);
+      }
+      
+      input[type="email"]::placeholder {
+        color: var(--cor-secundaria);
+      }
+      
+      input[type="number"]::placeholder {
+        color: var(--cor-secundaria);
+      }
+      
+      .footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-image: url(../img/rodape/fundo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        padding: 50px 50px;
+        width: 100%;
+      }
+
+      .footer-text p{
+        color: white;
+        padding: 20px;
+        width: 50%;
+        
+      }
+
+      .container-footer span{
+        color: white;
+        padding: 20px;
+        
+
+      }
+
+      .footer-text,
+      .footer-text2 {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        gap: 100px;
+        font-family: 'Roboto Slab', serif ;
+      }
+      
+      
+      .footer-text span{
+        color: white;
+      }
+      
+
+      .container-footer{
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        gap: 20px;
+        
+      }
+
+      .container-social{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content:center;
+      }
+
+      .footer-text2 span{
+        font-size: 14px;
+        align-items: center;
+        text-align: center;
+      }
+     

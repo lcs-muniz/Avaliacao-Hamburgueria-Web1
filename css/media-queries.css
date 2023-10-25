@@ -1,4 +1,125 @@
 @media screen and (max-width: 480px){
 
+    .container-header{
+    width: 100%;
+    justify-content: center;
+    height: 120px;
+    padding: 0px 20px;
+    }
     
+    .main, .main-figure{
+        width: 100%;
+    }
+
+    .main-figure{  
+        justify-content: center;
+    }
+
+    .main-title {
+        align-items: center;
+      }
+
+    .main-title h1{
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .main-title h2{
+        font-size: 4rem;
+        text-align: center;
+    }
+    
+    .image-lanche{
+        height: 400px;
+        width: 450px;
+    }
+
+    .image-preco{
+        height: 150px;
+        width: 150px;
+    }
+
+    .section-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-text p{
+        width: 100%;
+        padding: 10%;
+    }
+    .container-cards,
+    .card{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .section-text2{
+        
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 0px;
+    }
+    
+    .sec-form{
+        flex-direction: column;
+    }
+
+    
+    .footer-text2,
+    .footer-text figure img,
+    .footer-text p {
+      width: 100%;
+    }
+
+    .footer,.footer-text2,
+    .footer-text figure img,
+    .footer-text p {
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer{
+        flex-direction: column;
+        gap:15px
+    }
+
+
+    .footer-text figure{
+        height: 2px;
+    }
+
+    .footer-text p{
+        text-align: center;
+        padding: 1px;
+
+    }
+
+    .container-footer{
+        flex-direction: column;
+        width: 50%;
+        gap: 50px;
+    }
+
+    .footer-text2 span{
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .footer-text2 figure, img{
+        justify-content: center;
+    }
 }
